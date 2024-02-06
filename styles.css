@@ -1,8 +1,17 @@
-
-.body {
+body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    max-width: 100vw;
+    align-content: center;
+    text-align: center;
+    
+    margin: 0;
 }
 
 .roboto-thin {
@@ -77,8 +86,11 @@
     font-style: italic;
   }
 
-  .part1, .part2, .part3, .part4 {
+  .part1, .part2, .part3, .part4, .footer {
     display: flex;
+    max-width: 100vw;
+    flex: 1 1 auto;
+    padding: 48px;
   }
 
   .part1, .footer {
@@ -100,5 +112,10 @@
 
   .part4 {
     justify-self: center;
-    align-self: center;
+    align-content: center;
+  }
+
+  .footer {
+    flex: 0 0 auto;
+    padding: 0px;
   }
