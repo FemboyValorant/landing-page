@@ -103,6 +103,7 @@ body {
     padding-top: 8px;
     gap: 80px;
     justify-content: space-between;
+    padding-bottom: 112px;
   }
 
   .part2, .part4 {
@@ -110,7 +111,13 @@ body {
   }
 
   .part2 {
-    color: black
+    color: black;
+    flex-flow: column;
+    align-items: center;
+    justify-content: start;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 128px;
   }
 
   .part3 {
@@ -199,4 +206,36 @@ body {
     background-color: darkgray;
     height: 240px;
     width: 550px;
+  }
+
+  .rand-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+  }
+
+  .cell {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 150px;
+    gap: 8px;
+  }
+
+  .bluecells {
+    display: flex;
+    gap: 64px;
+  }
+
+  .bordered-media {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F2;
+    border-radius: 16px;
+    background-color: transparent;
+  }
+
+  .cell-subtext {
+    color: #1F2937;
   }
