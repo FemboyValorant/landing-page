@@ -122,11 +122,18 @@ body {
 
   .part3 {
     background-color: #E5E7EB;
+    flex-flow: column;
+    color: #1F2937;
+    text-align: left;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .part4 {
-    justify-self: center;
+    justify-content: center;
     align-content: center;
+
   }
 
   ul, .sub-text {
@@ -238,4 +245,56 @@ body {
 
   .cell-subtext {
     color: #1F2937;
+  }
+
+  .credit-cell {
+    justify-content: right;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .credit {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-right: 32px;
+  }
+  
+  .quote {
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    width: 790px;
+  }
+
+  .p3container {
+    width: 790px;
+  }
+
+  .blue-signup {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882F2;
+    color: #F9FAF8;
+    width: 1100px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .call-to-action {
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .click-text {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .signup-text {
+    display: flex;
+    align-items: start;
+    flex-flow: column;
   }
