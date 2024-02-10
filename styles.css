@@ -133,7 +133,8 @@ body {
   .part4 {
     justify-content: center;
     align-content: center;
-
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   ul, .sub-text {
@@ -297,4 +298,20 @@ body {
     display: flex;
     align-items: start;
     flex-flow: column;
+    margin-left: 128px;
+  }
+
+  .blue-button {
+    border: solid #F9FAF8;
+    border-radius: 6px;
+    background-color: #3882F2;
+    color: #F9FAF8;
+    padding: 4px 32px;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+
+    margin-right: 128px;
   }
